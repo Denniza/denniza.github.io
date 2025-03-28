@@ -48,7 +48,7 @@
         —— エリザベータ（80歳・ロシア）
     </p>
     <audio controls>
-        <source src="audio.m4a" type="audio/mpeg">
+        <source src="audio.m4a" type="audio/mp4"">
         Ваш браузер не поддерживает воспроизведение аудио.
     </audio>
 </div>
