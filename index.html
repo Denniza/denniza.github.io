@@ -3,13 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой одностраничный сайт</title>
+    <style>
+        /* Фон страницы с картинкой */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url("wallpaper.png") no-repeat center center fixed;
+            background-size: cover;
+        }
+        /* Стиль контейнера */
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        audio {
+            margin-top: 1rem;
+        }
+    </style>
 </head>
 <body>
-<h1>Добро пожаловать!</h1>
-<p>Здесь размещён ваш текст.</p>
-<audio controls>
-    <source src="9-3.mp3" type="audio/mpeg">
-    Ваш браузер не поддерживает воспроизведение аудио.
-</audio>
+<div class="container">
+    <h1>Добро пожаловать!</h1>
+    <p>
+        We were brought up differently. The most important thing for us is work. We worked not for money, but because we really liked it. And we could live, and we could enjoy everything we could. My favorite job kept me going. Only you can help yourself. Keep yourself busy and don't think about the bad. When you start thinking about the bad, it attracts you.
+        <br><br>
+        Elizabeth, 80, Russia
+    </p>
+    <p>
+        私たちは違う環境で育ちました。私たちにとって最も大切なのは仕事です。お金のためではなく、本当に好きだから働いていました。そして生活できたし、できる限りのことを楽しむこともできました。すべてが興味深かったのです！大好きな仕事が私を支えてくれました。自分を助けられるのは自分だけ。忙しくして、悪いことは考えないようにしましょう。悪いことを考え始めると、それに引き寄せられてしまうのです。
+        <br><br>
+        —— エリザベータ（80歳・ロシア）
+    </p>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает воспроизведение аудио.
+    </audio>
+</div>
 </body>
 </html>
